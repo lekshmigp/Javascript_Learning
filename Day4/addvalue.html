@@ -1,0 +1,15 @@
+<input id="id1" value="34">
+<input id="id2" value="43">
+<Button onclick="add()"> Add </Button>
+<p id="id3">Result </p>
+<script>
+    function add(){
+    var inp1= document.getElementById("id1")
+    var inp2= document.getElementById("id2")
+    var result= document.getElementById("id3")
+    var inp1value= Number(inp1.value)
+    var inp2value=Number(inp2.value)
+    var total= inp1value+inp2value
+    console.log(total)
+    }
+</script>
